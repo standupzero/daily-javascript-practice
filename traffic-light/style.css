@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: #e8e8e8;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+#wrapper {
+	
+	margin: auto;
+	height: 600px;
+	width: 1200px;
+	background-color: white;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#inner-left-wrapper {
+	float:left;
+	width: 40%;
+	height: 100%;
+	background-color: #3b3b3b;
+}
+
+#inner-right-wrapper {
+	float:left;
+	width: 60%;
+	height: 100%;
+	background-color: white;
+}
